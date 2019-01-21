@@ -1,6 +1,12 @@
 from tkinter import *
-
+import json
+import requests
 root = Tk()
+
+# with open("het bestands naam van de json", "r" as read_file:
+#   data = json.load(read_file)
+# with open("het bestands naam van de json", "w") as write_file:
+#   json.dump(data, write_file
 
 root.geometry('1200x800')
 root.title('PopUpPlazz')
